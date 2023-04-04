@@ -28,10 +28,9 @@ const Button = styled.button<{ disabled?: boolean }>`
   border: 2px solid ${({ disabled }) => disabled ? '#CDCDCD' : '#8F6593'};
   border-radius: 3px;
   &:hover {
-      background: #AEA4BF;
-      border: 2px solid #AEA4BF;
-      cursor: pointer
-
+      background: ${({ disabled }) => disabled ? '#CDCDCD' : '#AEA4BF'};
+      border: 2px solid ${({ disabled }) => disabled ? '#CDCDCD' : '#AEA4BF'};
+      cursor: ${({ disabled }) => disabled ? '' : 'pointer'};
     }
 `;
 

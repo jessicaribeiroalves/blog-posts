@@ -1,3 +1,11 @@
+# Implementation Details and Tech Stack
+
+- Next.js and TypeScript
+- React-Query
+- Styled using `styled-components`
+- `Posts` component to display blog posts on the screen (5 per page): pagination done using React Hooks
+- Unit testing: Jest and React-Testing-Library
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

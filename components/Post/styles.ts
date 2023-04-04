@@ -4,6 +4,10 @@ export const Container = styled.div`
   padding: 1rem;
 `;
 
+export const Divider = styled.hr`
+  border-top: 2px dotted #AEA4BF;
+`;
+
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
@@ -44,6 +48,7 @@ export const CardSubTitle = styled.h4`
 
 export const CardBody = styled.div`
   padding: 1.25rem;
+  padding-bottom: 0;
   flex: 1 1 0%;
 `;
 
@@ -58,4 +63,5 @@ export const AuthorName = styled.div`
 
 export const CardFooter = styled.div`
   padding: 1.25rem;
+  padding-top: 0;
 `;

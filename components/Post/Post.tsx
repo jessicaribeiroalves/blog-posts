@@ -1,6 +1,7 @@
 import { PostType } from '@/types/post';
 import {
   Container,
+  Divider,
   Card,
   CardHeader,
   CardTitle,
@@ -38,6 +39,7 @@ export default function Post({ post }: Props) {
             <CardSubTitle>Written by</CardSubTitle>
             <AuthorName>{post.authors.map((author) => author.name).join(', ')}</AuthorName>
           </AuthorSection>
+          <Divider />
         </CardBody>
         <CardFooter>
           <CardSubTitle>Comments:</CardSubTitle>

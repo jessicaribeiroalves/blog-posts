@@ -5,7 +5,7 @@ import { PostType } from '@/types/post';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background-color: white;
+    background-color: #E3E4DB;
     font-family: "Lucida Console", Courier, monospace;
   }
 `

@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query';
 import styled, { createGlobalStyle } from 'styled-components';
-import Posts from './posts';
+import Posts from '@/components/Posts/Posts';
 import { PostType } from '@/types/post';
 
 const GlobalStyle = createGlobalStyle`

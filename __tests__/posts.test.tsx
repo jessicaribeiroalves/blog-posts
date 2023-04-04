@@ -1,6 +1,6 @@
 import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
-import Posts from '../pages/posts';
+import Posts from '@/components/Posts/Posts';
 
 const createPosts = (count: number) =>
     new Array(count).fill(0).map((value, index) => ({
